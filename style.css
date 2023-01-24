@@ -1,0 +1,36 @@
+body{
+    background-color: burlywood;
+}
+
+
+h1{
+    color: blue;
+    padding-left: 25%;
+}
+
+#logoMDHL{
+    width: 200px;
+    background-color: black;
+
+}
+
+aside img{
+    width: 300px;
+    padding-right: 70%;
+}
+
+nav, section, p{
+    padding-left: 25%;
+}
+
+p{
+    align-content: center;
+}
+
+.black{
+    height: auto;
+    width: 200%;
+    padding-bottom: 30%;
+    background-color: black;
+    color: white;
+    }
