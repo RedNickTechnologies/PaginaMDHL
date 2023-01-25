@@ -1,6 +1,6 @@
 body{
     background-color: sandybrown;
-    display:flow-root;
+    display:block;
 }
 h1{
     color: blue;
@@ -15,7 +15,6 @@ main p{
 
 #logoMDHL{
     width: 200px;
-    background-color: black;
 }
 aside img{
     width: 300px;
