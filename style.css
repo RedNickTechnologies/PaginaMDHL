@@ -1,5 +1,11 @@
 body{
     background-color: sandybrown;
+    display:flow-root;
+}
+
+main {
+    padding-left: 50%;
+
 }
 
 
@@ -14,9 +20,10 @@ h1{
 
 }
 
+
 aside img{
     width: 300px;
-    padding-right: 70%;
+    flex-direction: column;
 }
 
 nav, section, p{
@@ -33,3 +40,9 @@ p{
     padding-bottom: 0.5%;
     background-color: black;
     }
+
+.hockey{
+    height: auto;
+    width: 200%;
+    top: 100%;
+}
