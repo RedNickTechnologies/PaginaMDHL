@@ -2,10 +2,6 @@ body{
     background-color: sandybrown;
     display:flow-root;
 }
-
-
-
-
 h1{
     color: blue;
     padding-left: 25%;
@@ -16,28 +12,22 @@ h1{
     background-color: black;
 
 }
-
-
 aside img{
     width: 300px;
     flex-direction: column;
 }
-
 nav, section, p{
     padding-left: 25%;
 }
-
 p{
     align-content: center;
 }
-
 .black{
     height: auto;
     width: 200%;
     padding-bottom: 0.5%;
     background-color: black;
     }
-
 .hockey{
     height: auto;
     width: 200%;
