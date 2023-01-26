@@ -1,27 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: sandybrown;
-    display:block;
+    display:inline;
 }
 h1{
     color: blue;
     padding-left: 25%;
 }
 main{
-    padding-right: 5%;
-}
-main p{
-    margin-right: 10%;
+    display: inline;
 }
 
 #logoMDHL{
     width: 200px;
 }
-aside img{
+
+img{
     width: 300px;
-    flex-direction: column;
+    display: inline;
 }
 nav, section, p{
-    padding-left: 25%;
+    padding-left: 35%;
 }
 p{
     align-content: center;
@@ -33,7 +37,6 @@ p{
     background-color: black;
     }
 .hockey{
-    height: auto;
     width: 200%;
-    top: 100%;
+    display: inline;
 }
