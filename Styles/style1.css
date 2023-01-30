@@ -1,32 +1,33 @@
  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
-body {
-    background-color: sandybrown;
-}
+ body {
+     background-color: white;
+     padding: 500px, 500px, 500px, 500px;
+ }
 
-nav{
-    position: relative;
-    top: 150px;
-    left: 100px;
-}
+ nav {
+     position: relative;
+     top: 300px;
+     left: 100px;
+ }
 
 
-nav a {
-    display: block;
-    padding-top: 20px;
-    font-size: 20px;
-}
+ nav a {
+     display: block;
+     padding-top: 20px;
+     font-size: 20px;
+ }
 
 
  section h2 {
      background-color: black;
      color: white;
-     padding-left: 500px;
-     padding-right: 500px;
+     padding-left: 300px;
+     padding-right: 300px;
      padding-top: 20px;
      text-align: center;
  }
@@ -36,55 +37,55 @@ nav a {
      padding-top: 20px;
  }
 
- footer{
-    display: inline;
-    position: relative;
-    top: 450px;
-    left: 500px;
- }
-
- #email{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-section article{
-    position: absolute;
-    left: 300px;
-    top: 370px;
-}
-
-
-
-#banner {
-    background-image: url(../Assets/hockey_1.jpg);
-    color: white;
-    font-size: 30px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    height:  300px;
-    width: 100%;
-
-}
-
-
- #logoMDHL {
-     background-color: black;
-     width: 150px;
+ footer {
+     display: inline;
      position: relative;
-     left: 1000px;
-     top: 150px;
+     top: 450px;
+     left: 500px;
  }
 
-#logoMDHL{
-    width: 150px;
-    position:relative;
-    left: 1300px;
-    top: 170px;
+ #email {
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ section article {
+     position: absolute;
+     left: 300px;
+     top: 370px;
+ }
 
 
 
-}
+ #banner {
+     background-image: url(../Assets/hockey_1.jpg);
+     color: white;
+     font-size: 30px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+     width: 100%;
 
+ }
+
+
+ /* #logoMDHL {
+     background-color: black;
+     width: 100px;
+     position: absolute;
+     right: 550px;
+     top: 150px;
+     
+     
+    }
+    */
+
+    #logoMDHL{
+        background-color: black;
+        width: 150px;
+        position: absolute;
+        right: 100px;
+        top: 250px;
+    }
