@@ -4,64 +4,42 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
+body{
+    background-color: sandybrown;
+    display:block;
+}
+h1{
+    color: blue;
+    padding-left: 25%;
+}
+main{
+    padding-right: 5%;
+}
+main p{
+    margin-right: 10%;
 }
 
-header h1 {
-
-    font-size: 80px;
-    text-align: left;
-    color: white;
+#logoMDHL{
+    width: 200px;
 }
-
-nav a {
-    display: block;
-    position: relative;
-    top: 85px;
-    left: 50px;
-    padding-top: 40px;
+aside img{
+    width: 300px;
+    flex-direction: column;
 }
-
-
-section h2 {
-    background-color: black;
-    color: white;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    text-align: center;
+nav, section, p{
+    padding-left: 25%;
 }
-
-section article {
-    position: relative;
-    left: 300px;
-    top: 5px;
+p{
+    align-content: center;
 }
-
-section article h3 {
-    padding-top: 20px;
-}
-
-#email{
-   padding-top: 20px;
-}
-
-
-
-#banner {
-    background-image: url(../Assets/hockey_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-
-}
-
-#logoMDHL {
-    background-color: black;
-    width: 150px;
-    position: relative;
-    left: 1300px;
-    top: 150px;
+.banner{
+    height: auto;
+    width: 200%;
+    padding-bottom: 0.5%;
+    background-color: red;
+    }
+.hockey{
+    height: auto;
+    width: 200%;
+    top: 100%;
 }

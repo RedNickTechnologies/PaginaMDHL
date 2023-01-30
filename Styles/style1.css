@@ -1,29 +1,21 @@
  * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
- }
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
- body {
-     background-color: white;
- }
+body {
+    background-color: sandybrown;
+}
 
- header h1 {
-
-     font-size: 80px;
-     text-align: left;
-     color: white;
- }
-
- nav a {
-     display: block;
-     position: relative;
-     top: 85px;
-     left: 50px;
-     padding-top: 40px;
- }
+nav{
+    display:inline;
+    position: relative;
+    top: 200px;
+}
 
 
+<<<<<<< HEAD
  section h2 {
      background-color: black;
      color: white;
@@ -51,20 +43,35 @@
  }
 
  #email{
+=======
+section h2{
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+>>>>>>> parent of 6f0db39 (Actualizacion de CSS)
     padding-top: 20px;
- }
+    text-align: center;
+}
+
+section article{
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
 
 
 
- #banner {
-     background-image: url(../Assets/hockey_1.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     height: 300px;
-     width: 100%;
+#banner {
+    background-image: url(../Assets/hockey_1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:  300px;
+    width: 100%;
 
- }
+}
 
+<<<<<<< HEAD
  #logoMDHL {
      background-color: black;
      width: 150px;
@@ -72,3 +79,11 @@
      left: 1000px;
      top: 150px;
  }
+=======
+#logoMDHL{
+    width: 150px;
+    position:relative;
+    left: 1300px;
+    top: 170px;
+}
+>>>>>>> parent of 6f0db39 (Actualizacion de CSS)
