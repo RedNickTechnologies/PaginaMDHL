@@ -9,26 +9,27 @@ body {
 }
 
 nav{
-    display:inline;
     position: relative;
     top: 200px;
+    left: 100px;
+}
+
+
+nav a {
+    display: block;
+    padding-top: 20px;
 }
 
 
  section h2 {
      background-color: black;
      color: white;
-     padding-left: 1000px;
-     padding-right: 1000px;
+     padding-left: 500px;
+     padding-right: 500px;
      padding-top: 20px;
      text-align: center;
  }
 
- section article {
-     position: relative;
-     left: 300px;
-     top: 5px;
- }
 
  section article h3 {
      padding-top: 20px;
@@ -52,15 +53,17 @@ nav{
 }
 
 section article{
-    position: relative;
+    position: absolute;
     left: 300px;
-    top: 200px;
+    top: 370px;
 }
 
 
 
 #banner {
     background-image: url(../Assets/hockey_1.jpg);
+    color: white;
+    font-size: 30px;
     background-size:cover;
     background-repeat: no-repeat;
     height:  300px;
