@@ -27,8 +27,8 @@
  section h2 {
      background-color: black;
      color: white;
-     padding-left: 100px;
-     padding-right: 100px;
+     padding-left: 1000px;
+     padding-right: 1000px;
      padding-top: 20px;
      text-align: center;
  }
@@ -41,6 +41,13 @@
 
  section article h3 {
      padding-top: 20px;
+ }
+
+ footer{
+    display: inline;
+    position: relative;
+    top: 450px;
+    left: 500px;
  }
 
  #email{
@@ -62,6 +69,6 @@
      background-color: black;
      width: 150px;
      position: relative;
-     left: 1300px;
+     left: 1000px;
      top: 150px;
  }
