@@ -15,7 +15,6 @@ nav{
 }
 
 
-<<<<<<< HEAD
  section h2 {
      background-color: black;
      color: white;
@@ -43,13 +42,11 @@ nav{
  }
 
  #email{
-=======
-section h2{
+
     background-color: black;
     color: white;
     padding-left: 100px;
     padding-right: 100px;
->>>>>>> parent of 6f0db39 (Actualizacion de CSS)
     padding-top: 20px;
     text-align: center;
 }
@@ -71,7 +68,7 @@ section article{
 
 }
 
-<<<<<<< HEAD
+
  #logoMDHL {
      background-color: black;
      width: 150px;
@@ -79,11 +76,14 @@ section article{
      left: 1000px;
      top: 150px;
  }
-=======
+
 #logoMDHL{
     width: 150px;
     position:relative;
     left: 1300px;
     top: 170px;
+
+
+
 }
->>>>>>> parent of 6f0db39 (Actualizacion de CSS)
+
