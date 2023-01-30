@@ -1,49 +1,67 @@
  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
-body {
-    background-color: sandybrown;
-}
+ body {
+     background-color: white;
+ }
 
-nav{
-    display:inline;
-    position: relative;
-    top: 200px;
-}
+ header h1 {
+
+     font-size: 80px;
+     text-align: left;
+     color: white;
+ }
+
+ nav a {
+     display: block;
+     position: relative;
+     top: 85px;
+     left: 50px;
+     padding-top: 40px;
+ }
 
 
-section h2{
-    background-color: black;
-    color: white;
-    padding-left: 100px;
-    padding-right: 100px;
+ section h2 {
+     background-color: black;
+     color: white;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ section article {
+     position: relative;
+     left: 300px;
+     top: 5px;
+ }
+
+ section article h3 {
+     padding-top: 20px;
+ }
+
+ #email{
     padding-top: 20px;
-    text-align: center;
-}
-
-section article{
-    position: relative;
-    left: 300px;
-    top: 200px;
-}
+ }
 
 
 
-#banner {
-    background-image: url(../Assets/hockey_1.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height:  300px;
-    width: 100%;
+ #banner {
+     background-image: url(../Assets/hockey_1.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+     width: 100%;
 
-}
+ }
 
-#logoMDHL{
-    width: 150px;
-    position:relative;
-    left: 1300px;
-    top: 170px;
-}
+ #logoMDHL {
+     background-color: black;
+     width: 150px;
+     position: relative;
+     left: 1300px;
+     top: 150px;
+ }
