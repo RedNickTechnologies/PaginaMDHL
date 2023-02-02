@@ -10,15 +10,15 @@ body {
 
 nav {
     display: flex;
-    flex-direction:row;
-    justify-content:end;
+    flex-direction: row;
+    justify-content: end;
 
 }
 
-header figure{
+header figure {
     display: flex;
-    flex-direction:row;
-    justify-content:end;
+    flex-direction: row;
+    justify-content: end;
 
 }
 
@@ -46,7 +46,8 @@ section h2 {
 }
 
 
-section article h3, p {
+section article h3,
+p {
     padding-top: 20px;
     display: flex;
     align-items: center;
