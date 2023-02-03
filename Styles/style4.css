@@ -61,6 +61,12 @@ footer {
     left: 500px;
 }
 
+.addinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 #email {
     padding-left: 100px;
     padding-right: 100px;
@@ -69,9 +75,9 @@ footer {
 }
 
 section article {
-    position: absolute;
-    left: 300px;
-    top: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 
