@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    position: absolute;
+    top: -30px;
+    right: 16px;
+}
+
+
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(51, 107, 211);
+    color: white;
+    border: 3px solid black;
+}
+
+
+section h2 {
+    background-color: white;
+    color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    border: 2px solid black;
+}
+
+
+section article h3 {
+    padding-top: 20px;
+}
+
+footer {
+    display: inline;
+    position: absolute;
+    bottom: -100px;
+    left: 500px;
+}
+
+#email {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+section article {
+    position: absolute;
+    left: 300px;
+    top: 440px;
+}
+
+
+
+#banner {
+    background-image: url(../Assets/hockey_1.jpg);
+    color: black;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    border: 3px solid black;
+
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    top: -90px;
+}
+
+
+#logoMDHL {
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    left: 60px;
+    top: 380px;
+}

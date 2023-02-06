@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    background-image: url(https://media.tenor.com/4_S-GDzuCosAAAAC/mighty-ducks.gif);
+    background-position: center 25%;
+    background-size:cover;
+
+}
+
+h1{
+    color:aliceblue
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+header figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(51, 107, 211);
+    color: white;
+    border: 3px solid black;
+}
+
+section article{
+color: rgb(231, 231, 231);
+font-weight: bold;
+}
+
+
+section h2 {
+    background-color: rgba(46, 106, 158, 0.932);
+    color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(19, 17, 17);
+}
+
+
+section article h3,
+p {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.addinfo {
+    position: relative;
+    top: 300px;
+
+}
+
+#email {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+section article {
+    position: absolute;
+    left: 300px;
+    top: 440px;
+}
+
+
+#banner {
+    background-image: url(../Assets/hockey_1.jpg);
+    color: black;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border: 3px solid black;
+
+}
+
+
+#logoMDHL {
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    left: 60px;
+    top: 460px;
+}

@@ -1,0 +1,78 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: white;
+ }
+
+ nav {
+     position: relative;
+     top: 300px;
+     left: 100px;
+ }
+
+
+ nav a {
+     display: block;
+     padding-top: 20px;
+     font-size: 20px;
+ }
+
+
+ section h2 {
+     background-color: black;
+     color: white;
+     padding-left: 300px;
+     padding-right: 300px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+
+ section article h3 {
+     padding-top: 20px;
+ }
+
+ footer {
+     display: inline;
+     position: relative;
+     top: 450px;
+     left: 500px;
+ }
+
+ #email {
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ section article {
+     position: absolute;
+     left: 300px;
+     top: 370px;
+ }
+
+
+ #banner {
+     background-image: url(../Assets/hockey_1.jpg);
+     color: white;
+     font-size: 30px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+     width: 100%;
+
+ }
+
+
+    #logoMDHL{
+        background-color: black;
+        width: 150px;
+        position: absolute;
+        right: 100px;
+        top: 250px;
+    }
