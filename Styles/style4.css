@@ -8,12 +8,15 @@ body {
     background-color: white;
     background-image: url(https://media.tenor.com/4_S-GDzuCosAAAAC/mighty-ducks.gif);
     background-position: center 25%;
-    background-size:cover;
+    background-size: cover;
 
 }
 
-h1{
-    color:aliceblue
+h1 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 46px;
+    
 }
 
 nav {
@@ -23,37 +26,33 @@ nav {
 
 }
 
-header figure {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-
-}
-
-
 nav a {
     display: inline-block;
     font-size: 20px;
-    background-color: rgb(51, 107, 211);
     color: white;
     border: 3px solid black;
 }
 
-section article{
-color: rgb(231, 231, 231);
-font-weight: bold;
+section article {
+    background-color: rgba(8, 8, 8, 0.808);
+    font-weight: bold;
+    border: 2px solid rgb(19, 17, 17);
 }
 
 
 section h2 {
-    background-color: rgba(46, 106, 158, 0.932);
-    color: black;
+    background-color: rgba(5, 5, 5, 0.959);
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 20px;
     padding: 20px;
+    font-size: 28px;
     text-align: center;
     border: 2px solid rgb(19, 17, 17);
+}
+
+.red{
+    text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
 }
 
 
@@ -83,10 +82,14 @@ span {
     text-align: center;
 }
 
-section article {
-    position: absolute;
-    left: 300px;
-    top: 440px;
+
+.letterMDHL{
+    text-align: center;
+    color: #FCDB00;
+    font-family: impact;
+    letter-spacing: 10px;
+    text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
+    
 }
 
 
@@ -107,7 +110,5 @@ section article {
 #logoMDHL {
     background-color: black;
     width: 150px;
-    position: absolute;
-    left: 60px;
-    top: 460px;
+    display: flex;
 }
