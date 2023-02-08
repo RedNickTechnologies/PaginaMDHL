@@ -4,19 +4,20 @@
     box-sizing: border-box;
 }
 
-body {
+
+
+.fondo {
     background-color: white;
     background-image: url(https://media.tenor.com/4_S-GDzuCosAAAAC/mighty-ducks.gif);
     background-position: center 25%;
     background-size: cover;
-
 }
 
 h1 {
     margin: 20px;
     padding: 20px;
     font-size: 46px;
-    
+
 }
 
 nav {
@@ -32,6 +33,20 @@ nav a {
     color: white;
     border: 3px solid black;
 }
+
+.link{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    border: 3px solid black;
+}
+
+
+a:hover,
+a:focus {
+    color: yellow;
+}
+
 
 section article {
     background-color: rgba(8, 8, 8, 0.808);
@@ -51,7 +66,7 @@ section h2 {
     border: 2px solid rgb(19, 17, 17);
 }
 
-.red{
+.red {
     text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
 }
 
@@ -83,13 +98,22 @@ span {
 }
 
 
-.letterMDHL{
+.letterMDHL {
     text-align: center;
     color: #FCDB00;
     font-family: impact;
     letter-spacing: 10px;
     text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
-    
+
+}
+
+.letterMDHL2 {
+    text-align: center;
+    color: #FCDB00;
+    font-family: impact;
+    letter-spacing: 2px;
+    text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
+
 }
 
 
@@ -110,4 +134,72 @@ span {
 #logoMDHL {
     background-color: black;
     width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 20px;
+    }
+
+}
+
+.order_column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form {
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    border: 3px solid yellow;
+    border-radius: 0;
+}
+
+form h3,
+p {
+    color: white;
+    padding: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+    background-color: red;
+    color: black;
+    font-family: Impact;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+    color: #FCDB00;
 }
