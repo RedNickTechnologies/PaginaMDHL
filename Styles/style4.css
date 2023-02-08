@@ -85,9 +85,9 @@ span {
 
 
 .addinfo {
-    position: relative;
-    top: 300px;
-
+    background-color: rgba(8, 8, 8, 0.322);
+    font-weight: bold;
+    border: 2px solid rgb(19, 17, 17);
 }
 
 #email {
@@ -139,6 +139,7 @@ span {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 16px;
+        flex-direction: column;
     }
 
 }
@@ -203,3 +204,19 @@ input[type="submit"]:hover {
     background-color: red;
     color: #FCDB00;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 2px solid yellow;
+    padding: 8px;
+    text-align: left;
+    color: white;
+  }
+  
+  th {
+    background-color: black;
+  }
