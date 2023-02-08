@@ -5,48 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/style4.css">
     <title>Forms</title>
 </head>
 
 <body>
-        <header id="banner">
-            <h1>MIGHTY DUCKS HOCKEY LEAGUE</h1>
-            <figure>
-                <img src="../Assets/Logo_Mighty_ducks-01.png" alt="Logo de Mighty Ducks Hockey League" id="logoMDHL">
-            </figure>
-            <nav>
-                <a href="./index.html">Home</a>
-                <a href="./About.html">Abouth MDHL</a>
-                <a href="./Contact.html">Contact</a>
-                <a href="./rules.html">Rules</a>
-                <a href="./Game_information.html">Information</a>
-                <a href="#">Forms</a>
-            </nav>
-        </header>
-    </header>
-    <main>
-        <form action="">
-            <p>player´s first name</p>
-            <p>Last Name:</p>
-            <p>Street Address:</p>
-            <p>City:</p>
-            <p>Zip Code:</p>
-            <p>Birth Date (mm/dd/yyyy):</p>
-            <p>Gender: Female- Male-</p>
-            <p>Grade: Pre-school</p>
-            <p>1st 2nd 3rd 4th 5th</p>
+        <form action="./show_data.html" method="get">
+            <label for="fn">Player First Name</label>
+            <input type="text" placeholder="first name" name="first_name" id="fn">
+            <label for="ln">Last Name</label>
+            <input type="text" placeholder="last name" name="last_name" id="ln">
+            <label for="sa">Street Address: </label>
+            <input type="text" placeholder="street address" name="street_address" id="sa">
+            <label for="ct">City</label>
+            <input type="text" placeholder="city" name="city" id="ct">
+            <label for="zc">Zip Code</label>
+            <input type="text" placeholder="zip code" name="zip_Code" id="zc">
+            <label for="bd">Birth Date</label>
+            <input type="date" name="birth_date" id="bd">
+            <Label for="gd">Gender: </Label>
+            <select name="Gender" id="gd">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+            <p>Grade: </p>
+            <label for="grade_pre-school">Pre-school</label>
+            <input type="radio" name="Grade" id="grade_Pre-school">
+            <label for="grade_1st">1st </label>
+            <input type="radio" name="grade" id="grade_1st">
+            <label for="grade_2nd">2nd </label>
+            <input type="radio" name="grade" id="grade_2nd">
+            <label for="grade_3rd">3rd </label>
+            <input type="radio" name="grade" id="grade_3rd">
+            <label for="grade_4th">4th</label>
+            <input type="radio" name="grade" id="grade_4th">
+            <label for="grade_5th">5th</label>
+            <input type="radio" name="grade" id="grade_5th">
             
-            <p></p> Which elementary school do you live near?
+            <p>Which elementary school do you live near?</p>
             
-            <p></p> closest School:
-            
-            <p>Aj katzenmaier</p>
-            <p>Greenbay</p>
-            <p>Howard A Yeager</p>
-            <p>Marjorie P Hart</p>
-            <p>North Elementary</p>
-            <p>South Elementary</p> 
+            <p>Closest school</p>
+            <label for="cs_Aj-katzenmaier">Aj Katzenmaier</label>
+            <input type="radio" name="cs" value="aj_katzenmaier" id="cs_aj-katzenmaier">
+            <label for="cs_greenbay">Green Bay</label>
+            <input type="radio" name="cs" value="greenbay" id="cs_greenbay">
+            <label for="cs_howard-a-yeager">Howard A Yeager</label>
+            <input type="radio" name="cs" value="howard_a_yeager" id="cs_howard-a-yeager">
+            <label for="cs_marjorie-P-Hart">Marjorie-P-Hart</label>
+            <input type="radio" name="cs" value="marjorie_p_hart" id="cs_marjorie-p-hart">
+            <label for="cs_north-elementary">North Elementary</label>
+            <input type="radio" name="cs" value="north_elementary" id="cs_north-elementary">
+            <label for="cs_south-elementary"> South Elemenatary</label>
+            <input type="radio" name="cs" value="south elementary" id="cs_south-elementary">
+            <input type="submit" value="enviar">
         </form>
-    </main>
 </body>
