@@ -5,7 +5,7 @@
 }
 
 
-
+/* Esta clase se creo porque necesitaba saber que pasaba con el cuestionario si quitaba el fondo por defecto del body, al final termino quedando como una clase oficial*/
 .fondo {
     background-color: white;
     background-image: url(https://media.tenor.com/4_S-GDzuCosAAAAC/mighty-ducks.gif);
@@ -13,6 +13,7 @@
     background-size: cover;
 }
 
+/* Seccion que controla los distintos tamaños de los elementos del titulo, los nav y los botones A*/
 h1 {
     margin: 20px;
     padding: 20px;
@@ -33,7 +34,7 @@ nav a {
     color: white;
     border: 3px solid black;
 }
-
+/* clase que invente para poder cambiar de color las etiquetas <a> que aparecian en color negro, como por ejemplo la etiqueta del formulario*/
 .link {
     display: inline-block;
     font-size: 20px;
@@ -41,7 +42,7 @@ nav a {
     border: 3px solid black;
 }
 
-
+/* clase que Hace que todos los elementos <a> cambien de su color original al amarillo*/
 a:hover,
 a:focus {
     color: yellow;
@@ -97,6 +98,8 @@ span {
     text-align: center;
 }
 
+/* Seccion que crea la letra amarilla de MDHL Hay dos versiones, una que es para las letras de titulos, y la otra que es para los subtitulos un poco mas pequeña*/
+
 
 .letterMDHL {
     text-align: center;
@@ -115,7 +118,7 @@ span {
     text-shadow: -3px -3px 2px #eb0b0b, 2px 2px 1px #eb0b0b, -2px 2px 1px #eb0b0b, 2px -2px 1px #eb0b0b;
 
 }
-
+/* Selectores varios, controlan el logo y elementos del header en el caso del banner */
 
 #banner {
     background-image: url(../Assets/hockey_1.jpg);
@@ -135,6 +138,8 @@ span {
     background-color: black;
     width: 150px;
 }
+
+/* Seccion encargada de que la pagina sea responsive, por el momento solo achica las letras y hace que dependiendo de la pantalla los elementos se acomoden uno debajo del otro (tengo que descubrir porque estas caracteristicas no afectan al LOGO de MDHL)*/
 
 @media only screen and (max-width: 600px) {
     body {
@@ -159,6 +164,8 @@ span {
 .center {
     align-items: center;
 }
+
+/* Esta seccion controla las distintas caracteristicas del formulario, crea un formulario negro con borde amarillo*/
 
 
 form {
@@ -209,6 +216,8 @@ input[type="submit"]:hover {
     color: #FCDB00;
 }
 
+/* Esta seccion dibuja la tabla transparente con bordes amarillos*/
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -221,6 +230,8 @@ td {
     text-align: left;
     color: white;
 }
+
+/* Esta seccion se controla la aparicion/desaparicion del mapa*/
 
 td iframe {
     display: none;
