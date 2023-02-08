@@ -34,7 +34,7 @@ nav a {
     border: 3px solid black;
 }
 
-.link{
+.link {
     display: inline-block;
     font-size: 20px;
     color: white;
@@ -151,9 +151,13 @@ span {
 
 }
 
-.order_column{
+.order_column {
     display: flex;
     flex-direction: column;
+}
+
+.center {
+    align-items: center;
 }
 
 
@@ -208,15 +212,24 @@ input[type="submit"]:hover {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th, td {
+}
+
+th,
+td {
     border: 2px solid yellow;
     padding: 8px;
     text-align: left;
     color: white;
-  }
-  
-  th {
+}
+
+td iframe {
+    display: none;
+}
+
+td:hover iframe {
+    display: initial;
+}
+
+th {
     background-color: black;
-  }
+}
