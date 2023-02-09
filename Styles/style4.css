@@ -244,3 +244,7 @@ td:hover iframe {
 th {
     background-color: black;
 }
+
+ol , ul, li{
+    color: white;
+}
