@@ -55,6 +55,11 @@ section article {
     border: 2px solid rgb(19, 17, 17);
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 
 section h2 {
     background-color: rgba(5, 5, 5, 0.959);
@@ -139,7 +144,7 @@ span {
     width: 150px;
 }
 
-/* Seccion encargada de que la pagina sea responsive, por el momento solo achica las letras y hace que dependiendo de la pantalla los elementos se acomoden uno debajo del otro (no afectan de manera adecuada a los nav y al logo.. tengo que descubrir porque)*/
+/* Seccion encargada de que la pagina sea responsive, por el momento solo achica las letras y hace que dependiendo de la pantalla los elementos se acomoden uno debajo del otro (no afectan de manera adecuada a los <a> y al logo.. tengo que descubrir porque)*/
 
 @media only screen and (max-width: 600px) {
     body {
@@ -243,4 +248,8 @@ td:hover iframe {
 
 th {
     background-color: black;
+}
+
+ol , ul, li{
+    color: white;
 }
